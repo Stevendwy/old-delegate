@@ -64,6 +64,6 @@ app.post('/*', (req, res) => {
     })
 })
 // 本地使用修改为 127.0.0.1
-app.listen(8080, "10.48.108.209", err => {
-  console.log("run in http://10.48.108.209:8080")
+app.listen(8081, "127.0.0.1", err => {
+  console.log("run in http://127.0.0.1:8081")
 })
